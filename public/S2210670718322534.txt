@@ -1,0 +1,11 @@
+Man Yuan, Chaohui Yin, Yi Sun, Weiqiang Chen,
+Examining the associations between urban built environment and noise pollution in high-density high-rise urban areas: A case study in Wuhan, China,
+Sustainable Cities and Society,
+Volume 50,
+2019,
+101678,
+ISSN 2210-6707,
+https://doi.org/10.1016/j.scs.2019.101678.
+(https://www.sciencedirect.com/science/article/pii/S2210670718322534)
+Abstract: Noise pollution poses negative impacts on public health particularly for urban dwellers as the land use of cities is prone to producing more road traffic and various human activities. Among the existing literature, the pathways linking built environment characteristics and noise level are not sufficiently addressed owing to a variety of complex factors affecting noise in urban areas. This study aims to examine the relationships of urban built environment and noise, using Pearson correlations and multiple linear regressions. Built environmental factors considered for this study consist of land cover, land use, and urban form. Results reveal a significant association between three aspects of urban built environment and noise level. In terms of land cover, forest alleviates noise effectively, while the effect of grassland on noise is far less impactful than forest. High-density and high-rise building areas (HHBA) are two contributors to noise pollution. The spatial layout of residential buildings is more effective in reducing noise level, as compared to the size of the residential lands. In terms of land use, the area proportion of business, open space with hard pavement, industrial, and residential land uses positively influence noise level. In terms of urban form, controlling building density is a key measure in noise reduction. Buildings with larger site coverage and complex shapes are effective in noise reduction. Findings from this study would be very helpful to formulate and implement effective measures for noise pollution mitigation, and ensure sustainable development of urban environment.
+Keywords: Noise; Land cover; Land use; Urban form; Urban built environment; Wuhan
