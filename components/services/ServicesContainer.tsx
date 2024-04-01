@@ -6,6 +6,7 @@ import { ChevronRight } from "lucide-react";
 
 import TabsContentContainer from './TabsContentContainer'
 import TabListContainer from './TasListContainer'
+import Staffs from '../Staffs/Staffs';
 
 export default function ServicesContainer() {
     return (

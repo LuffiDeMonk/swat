@@ -13,7 +13,6 @@ export default function ProjectContainer() {
                 />
                 <Heading
                     title='our projects'
-                    className='mt-4 mb-8'
                 />
                 <p className="text-center text-gray-400">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 <ProjectSlider />

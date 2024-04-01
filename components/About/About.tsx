@@ -3,6 +3,7 @@ import Container from '../home/Container'
 import Subheading from '../home/Subheading'
 import Heading from '../home/Heading'
 import Image from 'next/image'
+import Staffs from '../Staffs/Staffs'
 
 export default function About() {
     return (
@@ -33,6 +34,7 @@ export default function About() {
                     </div>
                 </div>
             </Container>
+            <Staffs />
         </main>
     )
 }
