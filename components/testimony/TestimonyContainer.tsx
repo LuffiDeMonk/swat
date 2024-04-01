@@ -7,10 +7,10 @@ import TestimonyCard from './TestimonyCard'
 export default function TestimonyContainer() {
     return (
         <Container>
-            <SliderWrapper {...settings}>
+            <SliderWrapper {...settings} className='pt-4'>
                 {
                     Array(6).fill('a').map((_, idx) => (
-                        <div key={idx} className='pr-2 md:px-3 lg:px-5 xl:pr-5'>
+                        <div key={idx} className='pr-2 md:px-3 lg:px-5 xl:pr-3'>
                             <TestimonyCard />
                         </div>
                     ))

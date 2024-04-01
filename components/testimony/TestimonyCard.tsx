@@ -1,3 +1,4 @@
+import { Quote } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -5,6 +6,9 @@ export default function TestimonyCard() {
     return (
         <div className='relative'>
             <div className="absolute left-1/2 -translate-x-1/2 -mt-16 size-32 bg-green-400 z-10 rounded-full p-2">
+                <div className="absolute z-20 bottom-0 right-0 bg-gradient-to-r from-lime-400 via-green-400 to-green-500 size-10 rounded-full flex items-center justify-center">
+                    <Quote className='size-4 fill-white text-white rotate-180' />
+                </div>
                 <div className="w-full h-full rounded-full overflow-hidden relative">
                     <Image
                         src='/office.jpg'
