@@ -9,9 +9,9 @@ import TabListContainer from './TasListContainer'
 
 export default function ServicesContainer() {
     return (
-        <>
+        <section id='services'>
             <Container>
-                <Tabs defaultValue="account" className="h-full flex flex-col lg:flex-row lg:gap-20" id="services">
+                <Tabs defaultValue="account" className="h-full flex flex-col lg:flex-row lg:gap-20">
                     <TabListContainer />
                     <TabsContentContainer />
                 </Tabs>
@@ -36,6 +36,6 @@ export default function ServicesContainer() {
                     }
                 </div>
             </div>
-        </>
+        </section>
     )
 }

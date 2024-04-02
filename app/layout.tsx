@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={cn("scroll-smooth", nunito_sans.className)}>
+        <Navbar />
         {children}
       </body>
     </html>

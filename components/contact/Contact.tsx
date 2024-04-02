@@ -15,7 +15,7 @@ const LocationMap = dynamic(() => import('@/components/contact/MapContainer'), {
 
 export default function Contact() {
     return (
-        <main id='contact' className='pt-32'>
+        <section id='contact' className='pt-32'>
             <Subheading
                 title='contact'
             />
@@ -43,6 +43,6 @@ export default function Contact() {
                 <LocationMap />
                 <ContactForm />
             </Container>
-        </main>
+        </section>
     )
 }

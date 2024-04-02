@@ -7,7 +7,7 @@ import Staffs from '../Staffs/Staffs'
 
 export default function About() {
     return (
-        <main id='about'>
+        <section id='about'>
             <Container className="py-10 h-screen flex gap-16 lg:items-center">
                 <div className="w-96 h-full shrink-0 relative hidden lg:block">
                     <Image src="/office.jpg" alt="office" width={400} height={400} className='w-full h-full object-cover' />
@@ -35,6 +35,6 @@ export default function About() {
                 </div>
             </Container>
             <Staffs />
-        </main>
+        </section>
     )
 }

@@ -27,7 +27,7 @@ const variants = {
 export default function BannerSlide() {
     return (
         <div>
-            <Container className='px-0 relative lg:px-2 lg:flex lg:items-center lg:gap-12 h-screen'>
+            <Container className='px-0 relative lg:px-2 lg:flex lg:items-center lg:gap-12 h-[120vh]'>
                 <div className="absolute lg:static inset-0 px-4 lg:px-0 flex items-center justify-center flex-col lg:block lg:basis-1/2">
                     <motion.div
                         variants={variants}
