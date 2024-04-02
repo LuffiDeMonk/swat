@@ -1,5 +1,15 @@
 import { Settings } from "react-slick";
 
+export const BannerSlider: Settings = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    waitForAnimate: true,
+    dots: false
+}
+
+
 export const ProjectSlider: Settings = {
     slidesToShow: 3,
     slidesToScroll: 3,
