@@ -9,16 +9,17 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import 'leaflet-defaulticon-compatibility';
 
 const position: LatLngExpression = {
-    lng: 85.3487,
-    lat: 27.7103
+    lng: 85.33018661078617,
+    lat: 27.693698371232152
 }
+
 
 export default function LocationMap() {
     return (
         <div className='basis-1/2 shrink-0 order-2 lg:order-1'>
             <MapContainer
                 center={position}
-                zoom={12}
+                zoom={18}
                 scrollWheelZoom={false}
                 className='w-full h-80 lg:h-full'
             >

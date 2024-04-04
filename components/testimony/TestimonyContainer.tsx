@@ -6,7 +6,7 @@ import TestimonyCard from './TestimonyCard'
 
 export default function TestimonyContainer() {
     return (
-        <section id='testimony'>
+        <section>
             <Container>
                 <SliderWrapper {...settings} className='pt-4'>
                     {

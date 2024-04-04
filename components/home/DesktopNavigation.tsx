@@ -1,8 +1,6 @@
 'use client'
-import React from 'react'
-import useHash from '@/helper/useHash'
 import Link from 'next/link'
-import { cn } from '@/lib/utils'
+import React from 'react'
 
 const Links = [
     {
@@ -43,12 +41,11 @@ const Links = [
 ]
 
 export default function DesktopNavigation() {
-    let hash = useHash()
     return (
         <section className='hidden xl:flex items-center gap-6'>
             {
                 Links.map(link => (
-                    <Link href={link.hash} key={link.id} className={cn(`${hash !== undefined && hash === link.name.toLowerCase() ? "text-green-400" : ""}`)}>{link.name}</Link>
+                    <Link href={link.hash} key={link.id} className=''>{link.name}</Link>
                 ))
             }
         </section>
