@@ -4,6 +4,7 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/home/Navbar";
+import Footer from "@/components/home/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const nunito_sans = Nunito_Sans({ subsets: ['latin'] })
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={cn("scroll-smooth", nunito_sans.className)}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

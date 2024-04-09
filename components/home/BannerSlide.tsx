@@ -6,22 +6,8 @@ import Subheading from './Subheading'
 import Image from 'next/image'
 import Heading from './Heading'
 import { Button } from '../ui/button'
+import { variants } from '../animation'
 
-const variants = {
-    hidden: {
-        y: 20,
-        opacity: 0
-    },
-    visible: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.5,
-            ease: 'easeInOut',
-            staggerChildren: 0.2,
-        }
-    }
-}
 
 
 export default function BannerSlide() {
@@ -31,8 +17,8 @@ export default function BannerSlide() {
                 <div className="absolute lg:static inset-0 px-4 lg:px-0 flex items-center justify-center flex-col lg:block lg:basis-1/2">
                     <motion.div
                         variants={variants}
-                        initial='hidden'
-                        whileInView='visible'
+                        initial='initial'
+                        whileInView='whileInView'
                         viewport={{ once: true }}
                     >
                         <motion.div variants={variants}>

@@ -21,7 +21,7 @@ export default function ContactForm() {
     })
     const onSubmit: SubmitHandler<z.infer<typeof formValidation>> = (data) => { console.log(data) }
     return (
-        <section className='bg-gray-200 p-6 basis-1/2 shrink-0 order-1 lg:order-2'>
+        <section className='bg-gray-200 px-6 py-6 xl:py-16 basis-1/2 shrink-0 order-1 lg:order-2'>
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-4'>
                     <FormField

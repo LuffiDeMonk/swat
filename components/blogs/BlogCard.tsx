@@ -14,7 +14,7 @@ export default function BlogCard() {
                     height={1000}
                     className='w-full h-full object-cover'
                 />
-                <h2 className='text-xl font-semibold mt-1.5 text-gray-700 hover:text-green-400 transition-colors'>Why Lead Generation is Key for Business Growth</h2>
+                <h2 className='text-xl font-semibold mt-1.5 cursor-pointer text-gray-700 hover:text-green-400 transition-colors'>Why Lead Generation is Key for Business Growth</h2>
                 <p className='text-base my-2 text-gray-500'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <div className="flex items-center justify-between mt-10">
                     <Button>Read More</Button>

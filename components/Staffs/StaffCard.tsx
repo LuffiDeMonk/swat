@@ -1,16 +1,12 @@
-'use client'
-
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 import React from 'react'
 import Heading from '../home/Heading'
 import Subheading from '../home/Subheading'
 import { Facebook, FacebookIcon, Instagram, InstagramIcon, Twitter } from 'lucide-react'
+import { MotionDiv } from '../home/MotionDiv'
+import { variants } from '../animation'
 
-const variants = {
-    initial: { y: 10, opacity: 0 },
-    whileInView: { opacity: 1, y: 0, transition: { staggerChildren: 0.1, duration: 0.5, ease: 'easeInOut' } }
-}
+
 
 export default function StaffCard() {
     return (
@@ -34,28 +30,29 @@ export default function StaffCard() {
                     className='tracking-normal text-base'
                 />
             </div>
-            <motion.div
+            <MotionDiv
                 variants={variants}
+                viewport={{ once: true }}
                 initial="initial"
                 whileInView='whileInView'
                 className="flex items-center justify-center gap-4"
             >
-                <motion.div
+                <MotionDiv
                     variants={variants}
                 >
                     <Twitter className='size-4  fill-black' />
-                </motion.div>
-                <motion.div
+                </MotionDiv>
+                <MotionDiv
                     variants={variants}
                 >
                     <Facebook className='size-4 fill-black' />
-                </motion.div>
-                <motion.div
+                </MotionDiv>
+                <MotionDiv
                     variants={variants}
                 >
                     <InstagramIcon className='size-4 ' />
-                </motion.div>
-            </motion.div>
+                </MotionDiv>
+            </MotionDiv>
         </div>
     )
 }

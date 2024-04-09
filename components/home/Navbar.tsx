@@ -6,6 +6,7 @@ import Container from './Container'
 import { cn } from '@/lib/utils'
 
 import DesktopNavigation from './DesktopNavigation'
+import Link from 'next/link'
 
 
 
@@ -47,9 +48,11 @@ export default function Navbar() {
         <motion.nav
             variants={variants}
             animate={hide ? 'animate' : 'hidden'}
-            className={cn('fixed top-0 left-0 w-full z-50 transition-colors', `${background ? "bg-transparent" : "bg-white drop-shadow-lg"}`)}>
+            className={cn('fixed top-0 left-0 w-full z-[999] transition-colors', `${background ? "bg-transparent" : "bg-white drop-shadow-lg"}`)}>
             <Container className='flex items-center justify-between h-16'>
-                <h1 className='text-4xl font-extrabold uppercase'>sw<span className='text-green-400'>at</span></h1>
+                <Link href='#home'>
+                    <h1 className='text-4xl font-extrabold uppercase'>sw<span className='text-green-400'>at</span></h1>
+                </Link>
                 <DesktopNavigation />
             </Container>
         </motion.nav>
