@@ -23,7 +23,7 @@ export default function BannerSlide() {
                     >
                         <motion.div variants={variants}>
                             <Subheading
-                                title='welcome to the digilab'
+                                title='welcome to the swat'
                                 className='text-center lg:text-start'
                             />
                         </motion.div>

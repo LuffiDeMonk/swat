@@ -8,8 +8,8 @@ const TabsContentContainer = () => {
         <>
             {
                 ServiceTabs.map(item => (
-                    <TabsContent key={item.id} value={item.title} className="w-full h-screen bg-gray-100">
-                        <MotionDiv variants={variants} initial='initial' whileInView='whileInView' viewport={{ once: true }}>
+                    <TabsContent key={item.id} value={item.title} className="w-full h-screen">
+                        <MotionDiv variants={variants} initial='initial' animate='whileInView'>
                             {item.content}
                         </MotionDiv>
                     </TabsContent>
